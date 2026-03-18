@@ -1,6 +1,6 @@
 # Netzgerät
 
-Ein Netzgerät welches 15V liefert, mit 3.3V, 5V und 12V Ausgängen versehen.
+Ein Netzgerät welches 15V liefert, mit 3.3V, 5V, 12V und 15V Ausgängen versehen.
 
 Sowie einen Shunt widerstand welcher den Gesamtstromverbrauch misst und auf ein Display überträgt.
 
