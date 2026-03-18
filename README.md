@@ -11,7 +11,7 @@ Logik und Lüfter verbraucht 0.25 A bei 5V im Ruhezustand.
 
 ## Material
 
-Foglendes MAterial wurde verbaut:
+Foglendes Material wurde verbaut:
 
 - Raspberry Pi Pico
 - Display (Waveshare 1602 I2C)
@@ -26,7 +26,7 @@ Foglendes MAterial wurde verbaut:
 
 ## Shunt Widerstand
 
-Dieser ist auf dem GND Pfad montiert, da bei der Montage beim VCC der Vin+ und Vin- Pin beim op amp höher sind als VCC. 
+Dieser ist auf dem GND Pfad montiert (über alle Spannungsausgänge), da bei der Montage beim VCC der Vin+ und Vin- Pin beim op amp höher sind als VCC. 
 
 
 
