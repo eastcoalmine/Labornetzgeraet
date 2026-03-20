@@ -28,6 +28,16 @@ Foglendes Material wurde verbaut:
 
 Dieser ist auf dem GND Pfad montiert (über alle Spannungsausgänge), da bei der Montage beim VCC der Vin+ und Vin- Pin beim op amp höher sind als VCC. 
 
+---
 
+## Test ohne Last
 
+Gerät wurde eingeschaltet und die Ausgangswerte ohne Last gemessen. Um Veränderung bei Wäreentwicklung festzustellen.
 
+Startwert 18:00h:
+3.324 V
+5.064 V
+12.05 V
+15.30 V
+
+Wert bei xx:xxh:
