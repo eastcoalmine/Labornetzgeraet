@@ -34,10 +34,16 @@ Dieser ist auf dem GND Pfad montiert (über alle Spannungsausgänge), da bei der
 
 Gerät wurde eingeschaltet und die Ausgangswerte ohne Last gemessen. Um Veränderung bei Wäreentwicklung festzustellen.
 
-Startwert 18:00h:
-3.324 V
-5.064 V
-12.05 V
-15.30 V
+Startwert 18:00h:  
+3.324 V  
+5.064 V  
+12.05 V  
+15.30 V  
 
-Wert bei xx:xxh:
+Wert bei 19:00h:  
+3.325 V
+5.067 V
+12.04 V
+15.31 V
+
+
