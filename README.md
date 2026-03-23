@@ -7,7 +7,8 @@ Sowie einen Shunt Widerstand welcher den Gesamtstromverbrauch misst und auf ein 
 Logik mit Strommessung über Shunt Widerstand & Display. Wird von einem Raspberry Pi Pico (C/C++ SDK) gesteuert. Zusätzlich noch 5V Lüfter als kühlung.
 Logik und Lüfter verbraucht 0.25 A bei 5V im Ruhezustand.
 
-<img width="1001" height="450" alt="image" src="https://github.com/user-attachments/assets/23e007aa-7221-401f-8fc5-2236cc615f40" />
+<img width="1008" height="450" alt="image" src="https://github.com/user-attachments/assets/472d8deb-96c7-4b97-a055-1cd9b8b240ed" />
+
 
 
 ---
