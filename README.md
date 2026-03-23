@@ -17,6 +17,7 @@ Logik und Lüfter verbraucht 0.25 A bei 5V im Ruhezustand.
 Foglendes Material wurde verbaut:
 
 - Raspberry Pi Pico
+- ADC (ADS1115)
 - Display (Waveshare 1602 I2C)
 - Lüfter
 - Netzgerät (15V / 10 A)
