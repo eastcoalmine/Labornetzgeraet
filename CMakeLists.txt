@@ -46,30 +46,14 @@ pico_enable_stdio_usb(LCD_1602 1)
 
 # Add the standard library to the build
 target_link_libraries(LCD_1602
-        pico_stdlib)
+        pico_stdlib
+        hardware_i2c
+        hardware_adc)
 
 # Add the standard include files to the build
 target_include_directories(LCD_1602 PRIVATE
         ${CMAKE_CURRENT_LIST_DIR}
+        ${USERHOME}/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_adc/include
 )
 
-# Add any user requested libraries
-target_link_libraries(LCD_1602 
-        hardware_i2c
-        )
-
 pico_add_extra_outputs(LCD_1602)
-
-# add_executable(LCD1602_RGB_Module_demo
-#         main.c
-#         LCD1602_RGB_Module.c LCD1602_RGB_Module.h)
-
-# # Pull in our pico_stdlib which pulls in commonly used features
-# target_link_libraries(LCD1602_RGB_Module_demo pico_stdlib hardware_i2c)
-
-# # create map/bin/hex file etc.
-# pico_add_extra_outputs(LCD1602_RGB_Module_demo)
-
-# # add url via pico_set_program_url
-# # example_auto_set_url(LCD1602_RGB_Module_demo)
-
