@@ -35,20 +35,11 @@ Dieser ist auf dem GND Pfad montiert (über alle Spannungsausgänge), da bei der
 
 ---
 
-## Test ohne Last
+Mit  
+// MA UMRECHNUNGSPARAMETER (mV zu mA - NEU KALIBRIERT)  
+#define MA_SLOPE 1.309f  
+#define MA_INTERCEPT -83.6f  
 
-Gerät wurde eingeschaltet und die Ausgangswerte ohne Last gemessen. Um Veränderung bei Wäreentwicklung festzustellen.
-
-Startwert 18:00h:  
-3.324 V  
-5.064 V  
-12.05 V  
-15.30 V  
-
-Wert bei 19:00h:  
-3.325 V  
-5.067 V  
-12.04 V  
-15.31 V
+lässt sich das Netzgerät Kalibrienren bzw Anpassen falls die Referenzmessung abweichen sollte
 
 
