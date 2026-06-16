@@ -35,11 +35,6 @@ Dieser ist auf dem GND Pfad montiert (über alle Spannungsausgänge), da bei der
 
 ---
 
-Mit  
-// MA UMRECHNUNGSPARAMETER (mV zu mA - NEU KALIBRIERT)  
-#define MA_SLOPE 1.309f  
-#define MA_INTERCEPT -83.6f  
 
-lässt sich das Netzgerät Kalibrienren bzw Anpassen falls die Referenzmessung abweichen sollte
 
 
